@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0;  */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -66,9 +66,54 @@ p {
     line-height: 1.4;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+/* header styling */
+
+header nav {
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-between;
+    align-items: baseline;
+    height:5vh;
+}
+
+.logo {
+    width: 20%;
+}
+
+.navLinks {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;     
+}
+
+.navLinks a {
+    color: black;
+    font-size: .8rem;
+}
+
+.headerImage{
+    height: 20vh;
+    background-image: url('/img/jumbo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 3% 0;
+}
+
+.headerImageAbout{
+    height: 20vh;
+    background-image: url('/img/jumbo-about.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 3% 0;
 }
 
 .top-content {
@@ -85,10 +130,15 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content .text-container p{
+    margin:0;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
 
 .middle-content h2 {
     padding: 0 2%;
@@ -122,6 +172,10 @@ p {
     padding-right: 4%;
 }
 
+.bottom-content .text-container p{
+    margin:0;
+}
+
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
@@ -144,3 +198,102 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Box colors */
+
+#box1 {
+   background: teal; 
+ }
+#box2 {
+    background: gold; 
+ }
+ #box3 {
+    background: cadetblue; 
+ }
+ #box4 {
+    background: coral; 
+ }
+ #box5 {
+    background: crimson; 
+ }
+ #box6 {
+    background: forestgreen; 
+ }
+ #box7 {
+    background: darkorchid; 
+ }
+ #box8 {
+    background: hotpink; 
+ }
+ #box9 {
+    background: indigo; 
+ }
+ #box10 {
+    background: dodgerblue; 
+ }
+
+ /* about page styling */
+
+.aboutSection {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.aboutSection h2, p {
+    margin-left:20px;
+}
+
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+.gallery div{
+    /* box-sizing: border-box; */
+    height: 50%;
+    width: 20vw;
+    overflow: hidden;
+    justify-content: left;
+    align-items: left;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    margin-top:20px;
+    
+}
+
+.gallery p {
+    margin-left:0;
+    
+}
+
+.gallery h3 {
+    margin-top: 5px;
+    font-size: 1.3rem;
+}
+
+.gallery a {
+    display: flex;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    width:35%;
+    height:15%;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    margin-bottom: 10px;
+    
+}
+
+.bottomSection h2, p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#bottomMargin {
+    margin-bottom:40px;
+}
+
