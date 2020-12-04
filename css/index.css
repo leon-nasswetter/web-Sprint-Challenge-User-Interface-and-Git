@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: 0; 
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -66,9 +66,47 @@ p {
     line-height: 1.4;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+
+header nav {
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-between;
+    align-items: baseline;
+    height:5vh;
+}
+
+.logo {
+    width: 20%;
+    margin-left: 2%;
+}
+
+.navLinks {
+    width: 72%;
+    display: flex;
+    justify-content: space-between;     
+}
+
+.navLinks a {
+    color: black;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.headerImage{
+    height: 20vh;
+    background-image: url('/img/jumbo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 3% 0;
 }
 
 .top-content {
