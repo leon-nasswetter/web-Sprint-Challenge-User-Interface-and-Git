@@ -130,10 +130,15 @@ header nav {
     padding-bottom: 20px;  
 }
 
+.top-content .text-container p{
+    margin:0;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
 
 .middle-content h2 {
     padding: 0 2%;
@@ -165,6 +170,10 @@ header nav {
 
 .bottom-content .text-container {
     padding-right: 4%;
+}
+
+.bottom-content .text-container p{
+    margin:0;
 }
 
 .bottom-content .text-container:last-child {
@@ -250,9 +259,8 @@ footer nav a {
     align-items: left;
     border-bottom: 1px dashed black;
     margin-bottom: 20px;
+    margin-top:20px;
     
-   
-
 }
 
 .gallery p {
@@ -262,25 +270,30 @@ footer nav a {
 
 .gallery h3 {
     margin-top: 5px;
+    font-size: 1.3rem;
 }
 
-.gallery h4 {
+.gallery a {
     display: flex;
-    margin-top: 10px;
+    color: black;
     border: 1px solid black;
     border-radius: 5px;
-    width:30%;
-    height:10%;
+    width:35%;
+    height:15%;
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    padding:5px;
+    margin-bottom: 10px;
+    
 }
-
-
 
 .bottomSection h2, p {
     margin-left: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     margin-top: 20px;
+}
+
+#bottomMargin {
+    margin-bottom:40px;
 }
 
