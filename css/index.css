@@ -86,11 +86,10 @@ header nav {
 
 .logo {
     width: 20%;
-    margin-left: 2%;
 }
 
 .navLinks {
-    width: 72%;
+    width: 75%;
     display: flex;
     justify-content: space-between;     
 }
@@ -98,7 +97,6 @@ header nav {
 .navLinks a {
     color: black;
     font-size: .8rem;
-    font-weight: bold;
 }
 
 .headerImage{
@@ -182,3 +180,38 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Box colors */
+
+#box1 {
+   background: teal; 
+ }
+#box2 {
+    background: gold; 
+ }
+ #box3 {
+    background: cadetblue; 
+ }
+ #box4 {
+    background: coral; 
+ }
+ #box5 {
+    background: crimson; 
+ }
+ #box6 {
+    background: forestgreen; 
+ }
+ #box7 {
+    background: darkorchid; 
+ }
+ #box8 {
+    background: hotpink; 
+ }
+ #box9 {
+    background: indigo; 
+ }
+ #box10 {
+    background: dodgerblue; 
+ }
+
+
